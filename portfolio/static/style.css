@@ -1,0 +1,123 @@
+
+
+body{
+    background-image: url(images/pattern.avif);
+    background-attachment: fixed;
+}
+
+.maincontent{
+    padding: 20px;
+}
+
+
+.image1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    border: 1px solid black;
+    box-shadow: 2px 5px 5px 2px black;
+
+}
+
+h1{
+    background-color: rgb(253, 130, 30);
+    background-image: url(images/T-Logo.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    font-weight: 30;
+    height: 80vh;
+    padding:200px;
+    text-align: center;
+    border: 1px solid black;
+    margin: auto;
+    box-shadow: 30px 40px 40px 30px black;
+    border-radius: 10px;    
+    
+}
+
+
+.port{
+    font-weight: 300;
+    text-decoration: ;
+    color: rgb(255, 255, 255);
+    
+}
+
+.port:hover{
+    color: rgb(0, 102, 255);
+}
+
+.port:active{
+    color: rgb(34, 189, 250);
+}
+
+h2{
+    text-align: center;
+}
+
+
+.paragraphs{
+    padding: 30px;
+}
+
+#containertwo{
+    display: flexbox;
+    padding: 200px;
+    max-width: 100%;
+    background-color: rgb(253, 130, 30);
+    border: 0px solid black;
+    background-image: url(images/footer.jpeg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 50px 50px 50px 50px rgb(253, 130, 30);
+    background-blend-mode: multiply;
+    border-radius: 10px;
+    
+}
+
+
+.about2{
+    text-decoration:;
+    color: black;
+}
+
+.about2:hover{
+    color: rgb(162, 162, 162);
+}
+
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+
+.fh1, .fh2, .fh3{
+    color: white;
+}
+
+.fh1:hover{
+    color: black;
+}
+.fh2:hover{
+    color: black;
+}
+.fh3:hover{
+    color:black;
+}
+
+
+@media (min-width: 992px) {
+    #hometext {
+        font-size: 4rem;
+    }
+    #blogdetailtitle {
+        font-size: 5rem;
+    }
+}
+

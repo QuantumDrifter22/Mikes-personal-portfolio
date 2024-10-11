@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+{% extends 'base.html' %}
+
+{% block content %}
+
+ {% load static %} 
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <title>About Me</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'aboutme.css' %}">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+<h1 class="abouttext">About Me</h1>
+
+<div class="paragraphs">
+    <div class="p1">
+    <p>
+        My name is Mike, I'm a 29-year-old Police Officer who has been working in law enforcement since December of 2019. While committed to this current role, I am actively pursuing a career change into software development, with a focus on becoming a junior software engineer. I am passionate about full-stack development and continue to expand my technical skills while balancing my busy personal and professional life. I enjoy spending time with my girlfriend and three kids, making the most of my days off to be with them.
+    </p>
+
+    </div>
+    <br><br>
+    
+        <img class="rango" src="{% static 'images/Durango.jpeg' %}" alt="Img of police Durango" height="auto" width="500px">
+    <br><br>
+    <div>
+    <p class="p2">
+        In addition to my law enforcement duties, I also work on Saturdays as a commercial driver for Amazon Freight Partners. Despite this busy schedule, I dedicate my spare time to learning about the tech industry, immersing myself in programming languages, full-stack development, and cybersecurity. I am enrolled in several online courses, including Harvard's CS50, Codecademy, and Udemy, to further my education and to help sharpen my programming skills.
+    </p>
+    </div>
+    
+    <img class="me" src="{% static 'images/me.jpeg' %}" alt="Photo of the creator" height="auto" width="300">
+<br><br>
+    <div class="p3">
+    <p>
+        My journey into tech began with HTML/HTML5, which I learned after buying a book on the subject. My enjoyment for front-end development, particularly writing HTML and CSS, has only grown, and I am eager to continue building my knowledge in full-stack development. My determination to transition into the tech industry, paired with self-driven learning and practical experience, positions myself as a dedicated candidate ready to embrace a new challenge in software engineering.
+    </p>
+    </div>
+    </div>
+
+    </body>
+    
+    <footer>
+
+
+    </footer>
+
+   
+
+
+    </html>
+
+    {% endblock %}

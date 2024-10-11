@@ -24,6 +24,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name='home.hmtl'),
     path('blog/', include('blog.urls')),
+    path('', include('portfolio.urls')),
 ]
 
 
